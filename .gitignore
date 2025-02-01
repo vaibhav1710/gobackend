@@ -1,0 +1,21 @@
+# Go build artifacts
+/bin/
+
+# Environment files
+.env
+.envrc
+.direnv/
+
+# Logs
+*.log
+
+# IDE/editor settings
+.vscode/
+.idea/
+.DS_Store
+*.swp
+*.swo
+
+# Live reloading (Air)
+tmp/
+.air.toml
