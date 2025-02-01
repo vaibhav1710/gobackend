@@ -7,6 +7,7 @@ import (
 )
 
 func main() {
+	// loading from env and giving a fallback value
 	cfg := config{
 		addr: env.GetString("ADDR", ":3000"),
 	}
